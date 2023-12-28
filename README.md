@@ -12,7 +12,15 @@ tiles = einops.rearrange(images, 'b c (h t1) (w t2) -> b (h w) c t1 t2', t1=tile
 ![attention_subject](imgs/attention_subject.png)
 ![attention_0](imgs/attention_0.png)
 ![attention_1](imgs/attention_1.png)
-![attention_2](imgs/attention_2.png)
 
 ## Positional Embeddings
 ![learned_positional_embeddings](imgs/learned_positional_embeddings.png)
+
+## Misslabelled Images
+![misslabelled](imgs/misslabelled.png)
+
+## Confusion Matrix
+![confusion_matrix](imgs/confusion_matrix.png)
+
+## Heatmap
+![heatmap](imgs/heatmap.png)
